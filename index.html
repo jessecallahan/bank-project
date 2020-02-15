@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,38 +11,43 @@
     <script src="js/scripts.js"></script>
     <title>Epicodus Credit Union</title>
 </head>
+
 <body>
     <div class="container">
         <div class="jumbotron">
-    <h1>Welcome to the Epicodus Credit Union!</h1>
-    </div>
+            <h1>Welcome to the Epicodus Credit Union!</h1>
+        </div>
 
-    <hr>
-    <form id="new-account">
-        <div class="row">
-          <div class="col">
-              <div class="container2">
-              <h2>Register a new account:</h2>
-            Name: <input type="text" id="new-name-account" required> </input>
+        <hr>
+        <form id="new-account">
             <div class="row">
-            Intitial Deposit: <input type="text" id="new-checking-account" required></input>
-            <button type="submit">Make account</button>
-        </div>
-    </div>
-         
-          <div class="row">
-            <div class="col">
-                <h2>Deposit or withdraw funds:</h2>
-              Deposit Amount: <input type="text"></input>
-              <div class="row">
-              Withdrawal Amount: <input type="text"></input>
-          
-          <button type="submit2">Confirm</button>
-        </div>
+                <div class="col">
+                    <div class="container2">
+                        <h2>Register a new account:</h2>
+                        Name: <input type="text" id="new-name-account" required> </input>
+                        <div class="row">
+                            Intitial Deposit: <input type="text" id="new-checking-account" required></input>
+                            <button type="submit">Make account</button>
+                        </div>
+                    </div>
         </form>
-        <div class=container>
-            <h2>Current Balance:</h2>
-            <output id="output"></output>
-        </div>
+
+        <div class="row">
+            <form id="new-account2">
+                <div class="col">
+                    <h2>Deposit or withdraw funds:</h2>
+                    <p>Name on Account: <input type="text" id="new-name-account"></input></p>
+                    Deposit Amount: <input type="text" id="add-checking-account"></input>
+                    <div class="row">
+                        Withdrawal Amount: <input type="text" id="minus-checking-account"></input>
+
+                        <button type="submit2">Confirm</button>
+                    </div>
+            </form>
+            <div class=container>
+                <h2>Current Balance:</h2>
+                <output id="output"></output>
+            </div>
 </body>
+
 </html>
